@@ -6,6 +6,7 @@
   border: 0;
   outline: 0;
   box-sizing: border-box;
+  text-decoration: none;
   list-style: none;
 }
 :root {
@@ -92,4 +93,21 @@ img {
   display: block;
   width: 100%;
   object-fit: cover;
+}
+/*  Media Queries */
+@media screen and (max-width: 1024px) {
+  .container{
+    width: var(--container-width-md);
+  }
+  section{
+    margin-top: 6rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .container{
+    width: var(--container-width-sm);
+  }
+  section > h2{
+    margin-bottom: 2rem;
+  }
 }
