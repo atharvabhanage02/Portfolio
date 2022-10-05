@@ -5,7 +5,7 @@ import { BiBook, BiMessageSquareDetail } from "react-icons/bi";
 const Navbar = () => {
   return (
     <nav>
-      <a href="#">
+      <a href="#" className="active">
         <AiOutlineHome />
       </a>
       <a href="#about">
