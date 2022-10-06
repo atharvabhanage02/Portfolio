@@ -40,23 +40,24 @@ header {
   overflow: hidden;
   padding: 5rem 1.5rem 1.5rem 1.5rem;
 }
-.scroll__down{
-    position: absolute;
-    right: -2.3rem;
-    bottom: 5rem;
-    transform: rotate(90deg);
-    font-weight: 300;
-    font-size: 0.8rem;
+.scroll__down {
+  position: absolute;
+  right: -2.3rem;
+  bottom: 5rem;
+  transform: rotate(90deg);
+  font-weight: 300;
+  font-size: 0.8rem;
 }
 
 /*  Media Queries */
 @media screen and (max-width: 1024px) {
-  header{
+  header {
     height: 68vh;
   }
 }
 @media screen and (max-width: 600px) {
- .header__socials , .scroll__down{
-    display: none ;
- }
+  .header__socials,
+  .scroll__down {
+    display: none;
+  }
 }
