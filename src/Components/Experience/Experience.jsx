@@ -7,11 +7,11 @@ const Experience = () => {
     "CSS",
     "JS",
     "React",
+    "Redux",
     "Tailwind",
     "TypeScript",
-    "Redux",
   ];
-  const backendSkills = ['NodeJS','Express','Mongoose','Postman']
+  const backendSkills = ["NodeJS", "Express", "MongoDB", "Postman"];
   return (
     <section id="experience">
       <h5>Skills I Have</h5>
