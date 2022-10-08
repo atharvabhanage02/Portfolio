@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./navbar.css";
 import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
 import { BiBook, BiMessageSquareDetail } from "react-icons/bi";
+import { FaReact } from "react-icons/fa";
 const Navbar = () => {
   const [activeNav, setActiveNav] = useState("#");
   return (
@@ -32,7 +33,7 @@ const Navbar = () => {
         onClick={() => setActiveNav("#projects")}
         className={activeNav === "#projects" ? "active" : ""}
       >
-        <AiOutlineHome />
+        <FaReact />
       </a>
       <a
         href="#contact"
