@@ -17,7 +17,7 @@ const About = () => {
         </div>
         <div className="about__content">
           <div className="about__cards">
-            <article className="about__card">
+            {/* <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
               <small>Undergrad</small>
@@ -31,13 +31,12 @@ const About = () => {
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
               <small>Done</small>
-            </article>
+            </article> */}
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
-            velit amet nemo corrupti, delectus culpa blanditiis eaque nostrum
-            sint fugit a temporibus officiis ab accusantium! A nostrum
-            blanditiis dolorem tenetur!
+            Hello ! I'm a Frontend Developer currently in my last year of
+            Engineering , actively looking for Internships. Check out my
+            Projects below.
           </p>
           <a href="#contact" className="btn btn-primary">
             Lets Talk
